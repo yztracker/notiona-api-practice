@@ -52,9 +52,8 @@ def main():
     url = input("請輸入網址：")
     data = fetch_data_from_url(url)
 
-    # 替換以下的值
-    token = "secret_6n2vtiHqRLMkP6QR5M2tjWivNZubroCDhnaPjq1uGQy"
-    notion_page_url = "57b9b1d53abc42eda2133eb335a04a3f"
+    token = ""
+    notion_page_url = ""
     
     send_data_to_notion(data, token, notion_page_url)
 
